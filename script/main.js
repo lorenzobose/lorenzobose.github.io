@@ -1,5 +1,10 @@
 const body =  document.body;
 
+//aside Menù
+const aside = document.createElement("aside");
+aside.id="aside";
+
+//Hamburgher Menù
 const container = document.createElement("div");
 container.id = "container";
 
@@ -22,5 +27,8 @@ label.appendChild(textBar);
 button.appendChild(input);
 button.appendChild(label);
 container.appendChild(button);
+
+
+body.appendChild(aside);
 body.appendChild(container);
 

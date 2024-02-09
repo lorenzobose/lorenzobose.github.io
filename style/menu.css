@@ -79,6 +79,22 @@ body {
   text-align: center;
 }
 
+#aside{
+  z-index: -1;
+  width: 300px;
+  height: 100%;
+  left: -300px;
+  box-shadow: 16px 0 5px #888;
+  border-right: 1px solid #727272;
+  box-sizing: border-box;
+
+  transition: left 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#_checkbox:checked + #aside{
+  animation: AsideIn 0.8s ease 0.2 forwards; 
+}
+
 #_checkbox:checked + #label:before {
   left: -39px;
 }
@@ -92,6 +108,19 @@ body {
     shakeWhileMovingUp 0.8s ease 0.2s forwards,
     shakeWhileMovingDown 0.2s ease 0.8s forwards;
 }
+
+ @keyframes AsideIn {
+  0%{
+    left: -300px;
+  }
+  50%{
+    left : -150px;
+  }
+  100%{
+    left: 0px;
+  }
+ }
+
 
   @keyframes moveUpThenDown {
     0% {
