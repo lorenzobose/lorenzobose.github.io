@@ -81,6 +81,7 @@ body {
 
 #aside{
   z-index: -1;
+  position: relative;
   width: 300px;
   height: 100%;
   left: -300px;
