@@ -82,14 +82,13 @@ body {
 #aside{
   z-index: -1;
   position: relative;
-  width: 300px;
+  width: 284px;
   height: 100%;
   left: -300px;
   box-shadow: 16px 0 5px #888;
   border-right: 1px solid #727272;
   box-sizing: border-box;
-
-  transition: left 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: left 0.3s;
 }
 
 #_checkbox:checked + #aside{
