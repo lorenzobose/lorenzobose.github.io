@@ -280,7 +280,7 @@ const text = {
 
     Verri:{
         vita:
-        `Pietro Verri nasce a Milano e fonda il club dei pugnim dove le discussioni erano talmente 
+        `Pietro Verri nasce a Milano e fonda il club dei pugni, dove le discussioni erano talmente 
         accese che secondo dicerie si arrivava ai pugni. Da questo club si formerà il caffè, rivista 
         che usciva ogni 10 giorni. Lavorerà per Maria teresa d'Austria nel suo dispotismo illuminato. 
         Alla sua morte con la salita al potere di Giuseppe 2° verrà licenziato e abbandonerà la politica.`
