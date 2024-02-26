@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
 * {
   -webkit-tap-highlight-color: transparent;
 }
@@ -17,7 +19,7 @@ body {
 #container {
   position: absolute;
   top: 60px;
-  left: 120px;
+  left: 60px;
   width: 39px;
   margin: 0 auto;
   transform: translateY(-50%) scale(1);
@@ -80,19 +82,18 @@ body {
 }
 
 #aside{
-  z-index: -1;
   position: relative;
-  width: 284px;
-  height: 100%;
+  width: 288px;
+  height: 6000px;
   left: -300px;
-  box-shadow: 16px 0 5px #888;
+  box-shadow: 12px 0 5px #888;
   border-right: 1px solid #727272;
   box-sizing: border-box;
-  transition: left 0.3s;
+  transition: left 0.5s ease;
 }
 
-#_checkbox:checked + #aside{
-  animation: AsideIn 0.8s ease 0.2 forwards; 
+#aside.asidein{
+  left:0;
 }
 
 #_checkbox:checked + #label:before {
@@ -108,18 +109,6 @@ body {
     shakeWhileMovingUp 0.8s ease 0.2s forwards,
     shakeWhileMovingDown 0.2s ease 0.8s forwards;
 }
-
- @keyframes AsideIn {
-  0%{
-    left: -300px;
-  }
-  50%{
-    left : -150px;
-  }
-  100%{
-    left: 0px;
-  }
- }
 
 
   @keyframes moveUpThenDown {
@@ -166,4 +155,73 @@ body {
       transform: rotateZ(0);
     }
 }
+
+
+#autors{
+  list-style-type: none;
+  position: absolute;
+  top: 130px;
+}
+
+.nomi{
+  position: relative;
+  left :10px;
+  font-size: 40px;
+  width:auto;
+  height: 50px;
+  font-family: "Montez", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+  user-select: none;
   
+}
+
+#divC{
+  position: absolute;
+ 
+  width: calc(100% - 300px);
+  height: auto;
+  top: 20px;
+  left : 300px;
+  box-sizing: border-box;
+}
+
+.titolo{
+  font-size: 48px;
+  position: relative;
+  text-align: center;
+}
+
+
+h3.titoletto{
+  font-family: comic sans ms;
+}
+.titoletto{
+  text-align: center;
+}
+
+
+
+.testo{
+  width: 100%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+  text-align: center;
+}
+.testo li {
+  list-style-position: inside;
+}
+.testo ol, .testo ul {
+  margin-top: -30px;
+  margin-bottom: -40px;
+}
+
+img.testo{
+  left: 40px;
+  right: 40px;
+  width: calc(100% - 380px);
+  height: auto;
+  margin-top: 50px;
+}
