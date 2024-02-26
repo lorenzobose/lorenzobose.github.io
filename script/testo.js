@@ -359,7 +359,7 @@ const text = {
 
 			<li>Del vespro ci restano 350 versi, parla di una passeggiata in carrozza tra la dama e il signore e nella notte una festa elegante con gli altri signori.</li>
 	
-			<li>Della notte ci restano circa 700 versi.</li>`,
+			<li>Della notte ci restano circa 700 versi.</li><br><br>`,
         
         cuccia:
         `Parini dissacra il numero 3. Il racconto è la storia raccontata dalla Dama di come Il suo cane,
