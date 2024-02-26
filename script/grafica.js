@@ -327,7 +327,7 @@ const grafica = {
 
         const giornot = document.createElement("p");
         giornot.innerHTML = text.Parini.giorno;
-        giornot.classList.add("p");
+        giornot.classList.add("testo");
 
         const cuccia  = document.createElement("h3");
         cuccia.innerHTML = "Vergine Cuccia";
