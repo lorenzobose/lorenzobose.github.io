@@ -212,6 +212,8 @@ h3.titoletto{
 }
 .testo li {
   list-style-position: inside;
+  text-align: left;
+  margin-left: calc(max-width / 3);
 }
 .testo ol, .testo ul {
   margin-top: -30px;

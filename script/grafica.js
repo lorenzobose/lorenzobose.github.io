@@ -415,6 +415,14 @@ const grafica = {
         mirrat.classList.add("testo");
         mirrat.innerHTML = text.Alfieri.Mirra;
 
+        const Vita = document.createElement("h2");
+        Vita.classList.add("titoletto");
+        Vita.innerHTML = "Vita di Vittorio Alfieri scritta da Esso";
+
+        const vitat = document.createElement("p");
+        vitat.classList.add("testo");
+        vitat.innerHTML = text.Alfieri.Vita;
+
         div.appendChild(nome);
         div.appendChild(vita);
         div.appendChild(tirannide);
@@ -427,6 +435,8 @@ const grafica = {
         div.appendChild(sault);
         div.appendChild(mirra);
         div.appendChild(mirrat);
+        div.appendChild(Vita);
+        div.appendChild(vitat);
         
     },
 }

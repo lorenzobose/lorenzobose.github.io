@@ -469,14 +469,14 @@ const text = {
         <li>In Italia manca un modello tragico di riferimento</li>
         <li>Questione ideologica. Le dinamiche storico sociali sono impostate su una metodologia che contrasta gli 
         elementi naturali semplici.</li>
-    
+        </ol>
         Alfieri spiega il processo compositivo:
         <ul> 
-            <li>ideare: <br>
+            <li>ideare:
             scegliere il soggetto, impostare la trama e dividere la materia scena per scena e atto per atto.</li>
-            <li>stendere: <br>
+            <li>stendere:
             la struttura viene scritta in prosa</li>
-            <li>verseggiare: <br>
+            <li>verseggiare:
             la tragedia assume la forma dell'endecasillabo sciolto. </li>
         </ul>    
         Le Tragedie si attengono rigorosamente alle tre unità aristoteliche:  Tempo, Luogo e Azione, divise in 5 atti e 
@@ -484,15 +484,37 @@ const text = {
 
         Saul: 
         `Protagonista del libro dei Re nella Bibbia, anche se liberamente interpretato. <br>
-        <h2>Trama</h2>
+        <h3>Trama</h3>
             Saul ha cacciato da Israele David, erede al trono. David fa ritorno venendo prima accolto, per poi essere 
             ricacciato quando nella stima dei suoi soldati subentrano le ansie e l'invidia. Saul uccide i sacerdoti che 
             gli avevano annunciato la predestinazione di David ma viene tormentato dai fantasmi di essi. Una volta 
             finita la minaccia contro i filistei, Saul accetta David come erede. `,
         
         Mirra:
-        `<h2>Trama</h2>
+        `Tragedia dedicata a Luisa Stolberg
+        <h3>Trama</h3>
+        Mirra, Figlia di Ciniro, è condannata da Venere ad amare il padre, nonostante fosse destinata in sposa a Pereo. 
+        Lo rifiuta quindi il giorno del matrimonio e lui si suicida. Quando il padre la chiama per chiederle spiegazioni
+        lei finisce per ammettere i sentimenti che prova verso il padre per poi suicidarsi.
         `,
+
+        Vita:
+        `Venne composta da Alfieri ispirato dalla pubblicazione dei Memoires Goldoniani e da Le Confessioni di Russeau. 
+        La prima stesura è del 1790. 8 anni dopo lo riprende in mano rielaborandolo. Viene pubblicata postuma nel 1806. 
+        Alfieri la scrive per due motivi: 1) Imprendiatorialità 2) Ego
+        Viene divisa in due parti :
+        <ul>
+        <li> La prima , formata da un introduzione in cui spiega i motivi che lo hanno spinto a scriverla e 4 segmenti 
+        che parlano delle sue 4 epoche:
+        <ol>
+            <li>(1749-1758): Infantilità</li>
+            <li>(1758-1766): Adolescenza : Alfieri li definisce anni di ineducazione e non studio.</li>
+            <li>(1766-1775): Giovinezza: Incentrata sui viaggi compiuti da Alfieri, Movimento costante causato dall'inquietudine</li>
+            <li>(1775-1790): Virilità: Percorso che rese Alfieri uno scrittore</li>
+        </ol></li>
+        <li>La seconda parte viene chiamata continuazione della 4a epoca</li>
+        </ul>
+        Considerato Romanzo di formazione perchè l'autore cresce nell'opera. <br> Spesso gli eventi sono piegati a suo favore per mettere in evidenza l'ascesa.`,
     },
 
 }
