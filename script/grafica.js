@@ -365,4 +365,15 @@ const grafica = {
         div.appendChild(nome);
         div.appendChild(vita);
     },
+
+    Alfieri(){
+        const nome = document.createElement("h1");
+        nome.innerHTML = "Alfieri";
+        nome.classList.add("titolo");
+
+        const vita = docuemnt.createElement("p");
+        vita.classList.add("testo");
+        vita.innerHTML = text.Alfieri.vita;
+
+    },
 }

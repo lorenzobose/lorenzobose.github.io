@@ -406,6 +406,24 @@ const text = {
         1762 viene invitato a Parigi a la comedie italienne sperando di trovare un pubblico più aperto
         alla sua riforma. Si ritirerà nel 1772 diventando docente di italiano a Versailles, 
         lavorando per Luigi 13.`
-    }
+    }, 
+
+    Alfieri :{
+        vita:
+        `Vittorio Alfieri nasce ad Asti nel 1749 da una famiglia Aristocratica, il che gli consente di contestare
+        l'aristocrazia senza temere accuse. Un anno dopo la sua nascita muore il padre e la madre si risposa, andando 
+        a viviere con il Patrigno. Entra a 9 anni nell'Accademia reale a Torino, dove resta fino al 66. Inizia quindi 
+        una serie di viaggi in italia e in Europa. Torna in italia nel 1772 e si stabilisce a Torino, ammettendo di 
+        avere una formazione culturale pressochè inesitente, conoscendo solo il dialetto piemontese e il Francese. 
+        Nel 1773 scrive la prima scena della sua prima tragedia: Cleopatra, messa in scena nel '75. Gli anni successivi 
+        sono quelli della conversione letteraria in cui scriverà 14 delle sue 19 tragedie. Durante questa conversione per
+        risolvere il problema liguistico si trasferisce in Toscana e decide di rinunciare ai suoi beni sottraendosi alla
+        monarchia sabauda. tra il 76 e il 79 si trasferisce a Firenze dove conosce Luisa Stolberg. I due si trasferiscono 
+        a Roma ma per lo scandalo è costretto a lasciarla. Dopo un anno si ricongiungono trasferendosi a Parigi, dove 
+        inizialmente è favorevole alla rivoluzione scrivendo la Parigi sbastigliata. Inizia anche a scrivere la Vita. Quando
+        la rivoluzione degenera decide di tornare in Italia, dove scrive L'ode Miso Gallo, contro i Francesi. 
+        Muore a Firenze nel 1803.`
+    },
 
 }
+

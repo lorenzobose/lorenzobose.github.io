@@ -76,6 +76,9 @@ function ClickAutori(event){
         case "Goldoni" : {
             grafica.Goldoni();break;
         }
+        case "Alfieri" :{
+            grafica.Alfieri();break;
+        }
         default:{
             console.log("palle");
         }
@@ -175,6 +178,14 @@ Goldoni.classList.add("nomi");
 const GoldoniA = document.createElement("a");
 GoldoniA.innerHTML = "Goldoni";
 GoldoniA.addEventListener("click", ()=> ClickAutori("Goldoni"));
+
+//Alfieri
+const Alfieri = document.createElement("li");
+Alfieri.id = "Alfieri";
+Goldoni.classList.add("nomi");
+const AlfieriA = document.createElement("a");
+AlfieriA.innerHTML= "Alfieri";
+AlfieriA.addEventListener("click", ()=> ClickAutori("Alfieri"));
 
 
 Tasso.appendChild(TassoA);
