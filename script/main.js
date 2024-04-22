@@ -199,6 +199,7 @@ Verri.appendChild(VerriA);
 Beccaria.appendChild(BeccariaA);
 Parini.appendChild(PariniA);
 Goldoni.appendChild(GoldoniA);
+Alfieri.appendChild(AlfieriA);
 
 
 
@@ -213,6 +214,7 @@ autors.appendChild(Verri);
 autors.appendChild(Beccaria);
 autors.appendChild(Parini);
 autors.appendChild(Goldoni);
+autors.appendChild(Alfieri);
 
 aside.appendChild(autors);
 body.appendChild(div);
