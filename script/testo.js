@@ -423,7 +423,9 @@ const text = {
         inizialmente è favorevole alla rivoluzione scrivendo la Parigi sbastigliata. Inizia anche a scrivere la Vita. Quando
         la rivoluzione degenera decide di tornare in Italia, dove scrive L'ode Miso Gallo, contro i Francesi. 
         Muore a Firenze nel 1803.`, 
+        
         Tirannide : 
+        
         `La critica all'aristocrazia e all'Ancièn Regime si ferma alla superficialità senza mai proporre una soluzione. 
         Molto evidente in questo trattato diviso in due libri:
         <ol>
@@ -433,7 +435,32 @@ const text = {
         Alfieri evita i confronti con il presente, evitando il punto di vista storico e concentrandosi sull'ontologico. 
         Il tiranno e l'oppositore danno origine ad un conflitto titanico che prescinde dal contesto storico. Il modo 
         migliore per opporsi al tiranno è dedicarsi alla letteratura definendo un opposto tra letteratura e potere 
-        criticando il Cortigiano. `
+        criticando il Cortigiano. `, 
+        
+        rime :
+        
+        `Raccolta di componenti poetici prevalentemente sonetti. 
+        <ol>
+        
+        <li>Tendenza all'autobiografismo</li>
+        <li>studio del canzoniere Petrarchesco da cui ricava lo stile nobile ed essenziale senza però cercare equilibrio
+        e armonia. Presenza costante del soggetto lirico, raggiungendo una tensione eroica.</li> 
+        <li>La natura è ritratta in modo inquieto e minaccioso</li>
+        
+        </ol>
+        <ul>
+            <li>Tacito orro di solitaria selva : <br>
+                Il poeta lamenta il secolo in cui vive, perchè sottoposto al regal giogo, dal quale ci si può sottrarre 
+                solo ritirandosi in una selva (Titanismo Alfieriano, uomo contro la storia). Schema Rimico Delle 
+                Petrose Dantesche (aspre e dure). La selva del peccato diventa luogo di pace. </li>
+
+            <li>Sublime specchio di veraci detti : <br>
+                Autoritratto alfieriano in cui delinea le proprie caratteristiche sia fisiche che interiori. 
+                Atteggiamento Titanico che fungerà da modello per l'autoritratto manzoniano e di foscolo. 
+                Alfieri afferma che l'unico momento in cui si capirà il proprio valore sarà il momento della morte. 
+                Se si sarà Achille o Tersite. PREROMANTICO </li>
+        </ul>
+        `
     },
 
 }

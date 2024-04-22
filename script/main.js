@@ -182,7 +182,7 @@ GoldoniA.addEventListener("click", ()=> ClickAutori("Goldoni"));
 //Alfieri
 const Alfieri = document.createElement("li");
 Alfieri.id = "Alfieri";
-Goldoni.classList.add("nomi");
+Alfieri.classList.add("nomi");
 const AlfieriA = document.createElement("a");
 AlfieriA.innerHTML= "Alfieri";
 AlfieriA.addEventListener("click", ()=> ClickAutori("Alfieri"));

@@ -371,12 +371,16 @@ const grafica = {
         nome.innerHTML = "Alfieri";
         nome.classList.add("titolo");
 
-        const vita = docuemnt.createElement("p");
+        const vita = document.createElement("p");
         vita.classList.add("testo");
         vita.innerHTML = text.Alfieri.vita;
 
+        const Tirannide = document.createElement("p");
+        Tirannide.classList.add("testo");
+        Tirannide.innerHTML = text.Alfieri.Tirannide;
+
         div.appendChild(nome);
         div.appendChild(vita);
-
+        div.appendChild(Tirannide);
     },
 }
