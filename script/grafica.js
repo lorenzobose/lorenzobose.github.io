@@ -375,5 +375,8 @@ const grafica = {
         vita.classList.add("testo");
         vita.innerHTML = text.Alfieri.vita;
 
+        div.appendChild(nome);
+        div.appendChild(vita);
+
     },
 }

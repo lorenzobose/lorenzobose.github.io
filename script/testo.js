@@ -422,7 +422,18 @@ const text = {
         a Roma ma per lo scandalo è costretto a lasciarla. Dopo un anno si ricongiungono trasferendosi a Parigi, dove 
         inizialmente è favorevole alla rivoluzione scrivendo la Parigi sbastigliata. Inizia anche a scrivere la Vita. Quando
         la rivoluzione degenera decide di tornare in Italia, dove scrive L'ode Miso Gallo, contro i Francesi. 
-        Muore a Firenze nel 1803.`
+        Muore a Firenze nel 1803.`, 
+        Tirannide : 
+        `La critica all'aristocrazia e all'Ancièn Regime si ferma alla superficialità senza mai proporre una soluzione. 
+        Molto evidente in questo trattato diviso in due libri:
+        <ol>
+        <li>Illustra i vari tipi di tirranide e le sue forme </li>
+        <li>I modi in cui ci si può opporre.</li>
+        </ol>
+        Alfieri evita i confronti con il presente, evitando il punto di vista storico e concentrandosi sull'ontologico. 
+        Il tiranno e l'oppositore danno origine ad un conflitto titanico che prescinde dal contesto storico. Il modo 
+        migliore per opporsi al tiranno è dedicarsi alla letteratura definendo un opposto tra letteratura e potere 
+        criticando il Cortigiano. `
     },
 
 }
