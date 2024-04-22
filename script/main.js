@@ -79,6 +79,9 @@ function ClickAutori(event){
         case "Alfieri" :{
             grafica.Alfieri();break;
         }
+        case "Foscolo" :{
+            grafica.Foscolo();break;
+        }
         default:{
             console.log("palle");
         }
@@ -187,6 +190,15 @@ const AlfieriA = document.createElement("a");
 AlfieriA.innerHTML= "Alfieri";
 AlfieriA.addEventListener("click", ()=> ClickAutori("Alfieri"));
 
+//Foscolo
+const Foscolo = document.createElement("li");
+Foscolo.id = "Foscolo";
+Foscolo.classList.add("nomi");
+const FoscoloA = document.createElement("a");
+FoscoloA.innerHTML = "Foscolo";
+FoscoloA.addEventListener("click", () => ClickAutori("Foscolo"));
+
+
 
 Tasso.appendChild(TassoA);
 Galileo.appendChild(GalileoA);
@@ -200,6 +212,7 @@ Beccaria.appendChild(BeccariaA);
 Parini.appendChild(PariniA);
 Goldoni.appendChild(GoldoniA);
 Alfieri.appendChild(AlfieriA);
+Foscolo.appendChild(FoscoloA);
 
 
 
@@ -215,6 +228,7 @@ Alfieri.appendChild(AlfieriA);
 //autors.appendChild(Parini);
 //autors.appendChild(Goldoni);
 autors.appendChild(Alfieri);
+autors.appendChild(Foscolo);
 
 aside.appendChild(autors);
 body.appendChild(div);

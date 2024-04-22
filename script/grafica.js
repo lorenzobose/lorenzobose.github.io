@@ -439,4 +439,67 @@ const grafica = {
         div.appendChild(vitat);
         
     },
+
+    Foscolo(){
+        const nome = document.createElement("h1");
+        nome.innerHTML = "Foscolo";
+        nome.classList.add("titolo");
+
+        const vita = document.createElement("p");
+        vita.classList.add("testo");
+        vita.innerHTML = text.Foscolo.vita;
+
+        const Zacinto = document.createElement("h2");
+        Zacinto.innerHTML= "A Zacinto";
+        Zacinto.classList.add("titoletto");
+
+        const zacinto = document.createElement("p");
+        zacinto.classList.add("testo");
+        zacinto.innerHTML = text.Foscolo.Zacinto;
+
+        const Sera = document.createElement("h2");
+        Sera.innerHTML = "Alla Sera";
+        Sera.classList.add("titoletto");
+
+        const sera = document.createElement("p");
+        sera.classList.add("testo");
+        sera.innerHTML = text.Foscolo.Sera;
+
+        const Giovanni = document.createElement("h2");
+        Giovanni.innerHTML = "In Morte Del Fratello Giovanni";
+        Giovanni.classList.add("titoletto");
+
+        const giovanni = document.createElement("p");
+        giovanni.classList.add("testo");
+        giovanni.innerHTML = text.Foscolo.Giovanni;
+
+        const Amica = document.createElement("h2");
+        Amica.innerHTML = "Ode All'Amica Risanata";
+        Amica.classList.add("titoletto");
+        
+        const amica = document.createElement("p");
+        amica.classList.add("testo");
+        amica.innerHTML = text.Foscolo.Amica;
+
+        const Auto = document.createElement("h2");
+        Auto.innerHTML = "Autoritratto";
+        Auto.classList.add("titoletto");
+
+        const auto = document.createElement("p");
+        auto.classList.add("testo");
+        auto.innerHTML = text.Foscolo.Autoritratto;
+
+        div.appendChild(nome);
+        div.appendChild(vita);
+        div.appendChild(Zacinto);
+        div.appendChild(zacinto);
+        div.appendChild(Sera);
+        div.appendChild(sera);
+        div.appendChild(Giovanni);
+        div.appendChild(giovanni);
+        div.appendChild(Amica);
+        div.appendChild(amica);
+        div.appendChild(Auto);
+        div.appendChild(auto);
+    }
 }

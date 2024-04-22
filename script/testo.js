@@ -460,6 +460,11 @@ const text = {
                 Alfieri afferma che l'unico momento in cui si capirà il proprio valore sarà il momento della morte. 
                 Se si sarà Achille o Tersite. PREROMANTICO </li>
         </ul>
+
+                Quello che dirò è tutto vero. Mostrami nelle caratteristiche fisiche e interiori. Capelli corti in fronte e rossi. Alto e in una sensazione di 
+				perenne tristezza. Persona esile su due stichi secchi. Pelle Bianca come un re che deve mantenere il potere. Ora duro, aspro, ora flessibile
+				e mite. Arrabiato sempre ma cattivo mai. La mente e il cuore in perpetua lite. per lo più triste ma anche lieto, ora Achille e ora Tersite. E 
+				tu uomo chi sei ? lo scoprirai solo in punto di morte.
         `,
 
         tragico: 
@@ -516,6 +521,85 @@ const text = {
         </ul>
         Considerato Romanzo di formazione perchè l'autore cresce nell'opera. <br> Spesso gli eventi sono piegati a suo favore per mettere in evidenza l'ascesa.`,
     },
+
+    Foscolo :{
+        vita:
+        `Niccolò Ugo foscolo Nasce nel 1778 a Zante, Isola Greca sotto il controllo della Repubblica Veneta. 
+        Il padre Andrea è un Medico e la madre, Diamantina Spathis, è Greca. Foscolo conserverà un legame con 
+        la grecia, sentendosi erede della poesia classica. Le acque di Zante sono quelle cantate nell'Odissea.
+		Nell'85 la famiglia si trasferisce a Spalato, in Croazia. Nell'88 Andrea Muore e Foscolo è affidato alla 
+        zia. La madre va a Venezia e solo nel 93 si riuniranno a Venezia. in questi anni Fosciolo, oltre a 
+        frequentare i salotti di Ippolito Pindemone, dedica del Carme dei Sepolcri, Melchiorre Cesarotti e Isabella 
+        Teotochi Albrizzi e inizia la sua formazione letteraria, sudiando Ovidio, Orazio e Tibullio e i classici 
+        volgari, orientandosi verso Dante, Petrarca, Alfieri e Parini. scrive la Tragedia Tieste: Modellata sulle 
+        Tragedie Alfieriane, ha grande successo ma gli costa cara perchè avvicinandosi agli ambienti giacobini è 
+        costretto a lasciare Venezia per trasferirsi a Bologna arruolandosi nell'esercito napoleonico. nel 97 il 
+        trattato di Campo Formio con cui si cede venezia all'austria lo delude, ripubblicando l'ode a Napoleone 
+        preceduta da una polemica sullo stesso. nel 99 esce la prima edizione delle Lettere di Jacopo Ortis, non 
+        approvata. Quella approvata esce nel 1803. Nel frattempo ha pubblicato le poesie con le due odi: A luigia pallavicino
+        caduta da cavalle e All'amica Rinasata, e 12 sonetti tra i quali, a zacinto, alla sera, in morte 
+        del fratello Giovanni e alla Musa. nel 1804 si trasferisce in francia e durante la guerra contro l'inghilterra 
+        ha una figlia clandestina, Mary, rientrando a venezia solo nel 1806. Nel 1808 Foscolo è docente di Eloquenza, 
+        cattedra che gli viene revocata a causa dei pessimi rapporti con il regime napoleonico.si trasferisce vicino
+        Londra dove morirà nel 1827.`,
+
+        Zacinto:
+        `A Zacinto: Sonetto dedicato alla patria. Paragona il suo destino a quello di Ulisse, con differenza che Ulisse torna in patria`,
+
+        Sera:
+        `Sonetto tra i più celebri, tratta la morte chiamandola Fatal Quiete: Riposo voluto dal fato e definitiva. 
+        Questa prospettiva ribalta la prospettiva religiosa. Puro e semplice materialismo. Epicureismo: Anima 
+        esiste ed è fatta di atomi. Foscolo: Anima non esiste. Potere sia consolatorio che appacificante.
+		<br>
+		A "tempo crudele" si danno 3 interpretazioni: 
+        <ol>
+        <li>Sua vita</li>
+        <li>Vita in generale</li> 
+        <li>La fase in cui vive, epoca</li>
+        </ol>
+        `,
+
+        Giovanni:
+        `In Morte Del Fratello Giovanni:
+		Sonetto composto dopo la morte del Fratello di Foscolo morto quasi sicuramente suicida. Foscolo scrive a Monti 
+        dicendogli che la sorella lo aveva informato della morte del fratello avvenuta per avvelenamento dopo una lunga 
+        malinconia. Un'altra interpretazione è che avesse debiti e si fosse suicidato dopo aver rubato alle casse militari. 
+        Il funerale sarebbe stato fatto a mezzanotte per nasconderlo. Il Sonetto ha come spunto il carme 101 di Catullo. 
+        Foscolo ricorre al maschile più aulico del femminile catulliano. Poesia elegiaca: lamento funebre.`,
+
+        Amica :
+        `Una delle due odi del corpus. Composta da Foscolo tra la primavera del 1802 e il 1803 in omaggio ad Antonietta 
+        Fagnani Arese. Non a caso il titolo parla di amica risanata, amica dal latino amante, risanata perchè ripresa 
+        da una lunga malattia. Il tema centrale dell'ode è il potere consolatorio della bellezza che sta alla poesia 
+        rendere eterna. Due temi che tornano nei sepolcri. IN ogni strofa si trovano 6 versi, 5 settenari e un 
+        endecasillabo, schema rimico ABABCC e versi 2 e 4 sdruccioli. <br><br>
+        
+        
+        Lunga similitudine che comprende 2 strfe: Come dal mare il pianeta Venere appare fra le tenebre che scompaiono, 
+        sorge così il tuo corpo divino dal letto malato e in te rinasce la bellezza. l'adorata bellezza che è l'unico 
+        ristoro per le menti degli uomini destinate alla follia. Vedo rifiorire sul tuo volto il colorito rosato. 
+        Tornano i tuoi occhi a sorridere seducendo e a causa tua con rinnovato dolore, restano sveglie e hanno paura 
+        madri e amanti sospettose. Le ore che fino ad ora erano tristi dispensatrici di medicine ora ti portano le vesti 
+        indiane e i gioielli che ornano le statue di dei scolpite dai greci e i bianchi sandali e gli amuleti per cui 
+        durante i balli notturni i giovani, dimenticando le danze ti osservano, tu che sei principio di sofferenza e di 
+        speranza, sia quando onori l'arpa suonandola con ritmi originali, sia con le tue dolci forme che il morbido bisso 
+        avvolge e intanto il tuo canto più pericoloso si diffonde tra il brusio di ammirazione. Sia quando balli affidando 
+        il fragile corpo all'aria e riveli parti del tuo corpo. Al tuo agitarti lentamente odeggiano le trecce, luminose 
+        per l'unguento recente ma instabili sul pettine d'oro e sulla ghirlanda del fiore che aprile ti dona. Così ancelle 
+        d'amore introno a te volano invidiate. Guardino con astio le grazie chi ti ricorda che la bellezza è fugace e chi 
+        ti ricorda il giorno della morte. `,
+
+
+        Autoritratto:
+        `La fronte solcata dalle rughe, occhi incavati e attenti. Capelli rossi e guance smunte. Nobile aspetto, labbra 
+        gonfie e accese. denti Bianchi. Capo chino, bel collo e petto largo. Veloci i passi, i pensieri, gli atti e le parole.
+        Sobrio, umano, leale, prodigo e schietto. Io nemico del mondo, avversi a me gli eventi. Talvolta coraggioso a parole, 
+        spesso coraggioso a fatti. Triste il più delle volte, solitario, pronto, tendente all'ira e tenace. Ricco di vizi e di 
+        virtù, elogio la ragione ma seguo il cuore. Morte solo mi darà fama e riposo.`,
+
+
+
+    }
 
 }
 
