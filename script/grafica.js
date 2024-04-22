@@ -381,7 +381,7 @@ const grafica = {
 
         const Tirannidet = document.createElement("p");
         Tirannidet.classList.add("testo");
-        Tirannidet.innerHTML = text.Alfieri.Tirannidet;
+        Tirannidet.innerHTML = text.Alfieri.Tirannide;
 
         const rime = document.createElement("h2");
         rime.innerHTML ="Rime";
@@ -389,7 +389,7 @@ const grafica = {
 
         const rimet = document.createElement("p");
         rimet.classList.add("testo");
-        rimet.innerHTML = text.Alfieri.rimet;
+        rimet.innerHTML = text.Alfieri.rime;
 
         const tragico = document.createElement("h2");
         tragico.innerHTML = "Alfieri Tragico";
@@ -397,7 +397,7 @@ const grafica = {
 
         const tragicot = document.createElement("p");
         tragicot.classList.add("testo");
-        tragicot.innerHTML = text.Alfieri.tragicot;
+        tragicot.innerHTML = text.Alfieri.tragico;
 
         const saul = document.createElement("h2");
         saul.innerHTML ="Saul";

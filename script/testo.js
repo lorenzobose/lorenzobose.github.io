@@ -484,7 +484,7 @@ const text = {
 
         Saul: 
         `Protagonista del libro dei Re nella Bibbia, anche se liberamente interpretato. <br>
-        <h2>Trama</h2
+        <h2>Trama</h2>
             Saul ha cacciato da Israele David, erede al trono. David fa ritorno venendo prima accolto, per poi essere 
             ricacciato quando nella stima dei suoi soldati subentrano le ansie e l'invidia. Saul uccide i sacerdoti che 
             gli avevano annunciato la predestinazione di David ma viene tormentato dai fantasmi di essi. Una volta 
