@@ -375,12 +375,58 @@ const grafica = {
         vita.classList.add("testo");
         vita.innerHTML = text.Alfieri.vita;
 
-        const Tirannide = document.createElement("p");
-        Tirannide.classList.add("testo");
-        Tirannide.innerHTML = text.Alfieri.Tirannide;
+        const tirannide = document.createElement("h2");
+        tirannide.innerHTML="Tirannide";
+        tirannide.classList.add("titoletto");
+
+        const Tirannidet = document.createElement("p");
+        Tirannidet.classList.add("testo");
+        Tirannidet.innerHTML = text.Alfieri.Tirannidet;
+
+        const rime = document.createElement("h2");
+        rime.innerHTML ="Rime";
+        rime.classList.add("titoletto");
+
+        const rimet = document.createElement("p");
+        rimet.classList.add("testo");
+        rimet.innerHTML = text.Alfieri.rimet;
+
+        const tragico = document.createElement("h2");
+        tragico.innerHTML = "Alfieri Tragico";
+        tragico.classList.add("titoletto");
+
+        const tragicot = document.createElement("p");
+        tragicot.classList.add("testo");
+        tragicot.innerHTML = text.Alfieri.tragicot;
+
+        const saul = document.createElement("h2");
+        saul.innerHTML ="Saul";
+        saul.classList.add("titoletto");
+
+        const sault = document.createElement("p");
+        sault.classList.add("testo");
+        sault.innerHTML = text.Alfieri.Saul;       
+
+        const mirra = document.createElement("h2");
+        mirra.innerHTML = "Mirra";
+        mirra.classList.add("titoletto");
+
+        const mirrat = document.createElement("p");
+        mirrat.classList.add("testo");
+        mirrat.innerHTML = text.Alfieri.Mirra;
 
         div.appendChild(nome);
         div.appendChild(vita);
-        div.appendChild(Tirannide);
+        div.appendChild(tirannide);
+        div.appendChild(Tirannidet);
+        div.appendChild(rime);
+        div.appendChild(rimet);
+        div.appendChild(tragico);
+        div.appendChild(tragicot);
+        div.appendChild(saul);
+        div.appendChild(sault);
+        div.appendChild(mirra);
+        div.appendChild(mirrat);
+        
     },
 }

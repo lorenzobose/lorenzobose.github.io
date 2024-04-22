@@ -460,7 +460,39 @@ const text = {
                 Alfieri afferma che l'unico momento in cui si capirà il proprio valore sarà il momento della morte. 
                 Se si sarà Achille o Tersite. PREROMANTICO </li>
         </ul>
-        `
+        `,
+
+        tragico: 
+        `Alfieri sceglie la tragedia per varie ragioni:
+        <ol>
+        <li>Genere che si appresta di più ad esprimere le sue inquietudini</li>
+        <li>In Italia manca un modello tragico di riferimento</li>
+        <li>Questione ideologica. Le dinamiche storico sociali sono impostate su una metodologia che contrasta gli 
+        elementi naturali semplici.</li>
+    
+        Alfieri spiega il processo compositivo:
+        <ul> 
+            <li>ideare: <br>
+            scegliere il soggetto, impostare la trama e dividere la materia scena per scena e atto per atto.</li>
+            <li>stendere: <br>
+            la struttura viene scritta in prosa</li>
+            <li>verseggiare: <br>
+            la tragedia assume la forma dell'endecasillabo sciolto. </li>
+        </ul>    
+        Le Tragedie si attengono rigorosamente alle tre unità aristoteliche:  Tempo, Luogo e Azione, divise in 5 atti e 
+        con numero molto limitato di personaggi. Il periodo di scrittura delle tragedie va dal '57 al '78.`,
+
+        Saul: 
+        `Protagonista del libro dei Re nella Bibbia, anche se liberamente interpretato. <br>
+        <h2>Trama</h2
+            Saul ha cacciato da Israele David, erede al trono. David fa ritorno venendo prima accolto, per poi essere 
+            ricacciato quando nella stima dei suoi soldati subentrano le ansie e l'invidia. Saul uccide i sacerdoti che 
+            gli avevano annunciato la predestinazione di David ma viene tormentato dai fantasmi di essi. Una volta 
+            finita la minaccia contro i filistei, Saul accetta David come erede. `,
+        
+        Mirra:
+        `<h2>Trama</h2>
+        `,
     },
 
 }
