@@ -203,17 +203,17 @@ Alfieri.appendChild(AlfieriA);
 
 
 
-autors.appendChild(Tasso);
-autors.appendChild(Galileo);
-autors.appendChild(Bruno);
-autors.appendChild(Marino);
-autors.appendChild(mstc);
-autors.appendChild(Metastasio);
-autors.appendChild(Illuminismo);
-autors.appendChild(Verri);
-autors.appendChild(Beccaria);
-autors.appendChild(Parini);
-autors.appendChild(Goldoni);
+//autors.appendChild(Tasso);
+//autors.appendChild(Galileo);
+//autors.appendChild(Bruno);
+//autors.appendChild(Marino);
+//autors.appendChild(mstc);
+//autors.appendChild(Metastasio);
+//autors.appendChild(Illuminismo);
+//autors.appendChild(Verri);
+//autors.appendChild(Beccaria);
+//autors.appendChild(Parini);
+//autors.appendChild(Goldoni);
 autors.appendChild(Alfieri);
 
 aside.appendChild(autors);
