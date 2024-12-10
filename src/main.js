@@ -2,7 +2,7 @@ let text;
 const grafica = {
     inizio(){
         const sfondo = document.createElement("img");
-        sfondo.src = "img/sfondo.png";
+        sfondo.src = "img/sfondo.webp";
         sfondo.style.width = "100%";
         field.appendChild(sfondo);
 
