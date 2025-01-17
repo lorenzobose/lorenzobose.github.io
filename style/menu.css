@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: none;
+}
+
+html,body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#container {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 39px;
+  margin: 0 auto;
+  transform: translateY(-50%) scale(1);
+}
+
+#button {
+  width: 39px;
+  overflow: hidden;
+}
+
+#_checkbox {
+  display: none;
+}
+
+#label {
+  position: relative;
+  display: block;
+  height: 29px;
+}
+
+#label:before,
+#label:after,
+#text_bar {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #000;
+}
+
+#label:before,
+#label:after {
+  content: "";
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55) left;
+}
+
+#label:before {
+  top: 0;
+}
+
+#label:after {
+  top: 12px;
+}
+
+#text_bar {
+  top: 24px;
+}
+
+#text_bar:before {
+  content: "MENU";
+  position: absolute;
+  top: 5px;
+  right: 0;
+  left: 0;
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#aside{
+  position: relative;
+  width: 288px;
+  height: 6000px;
+  left: -300px;
+  box-shadow: 12px 0 5px #888;
+  border-right: 1px solid #727272;
+  box-sizing: border-box;
+  transition: left 0.5s ease;
+}
+
+#aside.asidein{
+  left:0;
+}
+
+#_checkbox:checked + #label:before {
+  left: -39px;
+}
+
+#_checkbox:checked + #label:after {
+  left: 39px;
+}
+
+#_checkbox:checked + #label #text_bar:before {
+  animation: moveUpThenDown 0.8s ease 0.2s forwards,
+    shakeWhileMovingUp 0.8s ease 0.2s forwards,
+    shakeWhileMovingDown 0.2s ease 0.8s forwards;
+}
+
+
+  @keyframes moveUpThenDown {
+    0% {
+      top: 0;
+    }
+    50% {
+      top: -27px;
+    }
+    100% {
+      top: -14px;
+    }
+  }
+  
+  @keyframes shakeWhileMovingUp {
+    0% {
+      transform: rotateZ(0);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    50% {
+      transform: rotateZ(0deg);
+    }
+    75% {
+      transform: rotateZ(10deg);
+    }
+    100% {
+      transform: rotateZ(0);
+    }
+}
+  
+@keyframes shakeWhileMovingDown {
+    0% {
+      transform: rotateZ(0);
+    }
+    80% {
+      transform: rotateZ(3deg);
+    }
+    90% {
+      transform: rotateZ(-3deg);
+    }
+    100% {
+      transform: rotateZ(0);
+    }
+}
+
+
+#autors{
+  list-style-type: none;
+  position: absolute;
+  top: 130px;
+}
+
+.nomi{
+  position: relative;
+  left :10px;
+  font-size: 40px;
+  width:auto;
+  height: 50px;
+  font-family: "Montez", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+  user-select: none;
+  
+}
+
+#divC{
+  position: absolute;
+ 
+  width: calc(100% - 300px);
+  height: auto;
+  top: 20px;
+  left : 300px;
+  box-sizing: border-box;
+}
+
+.titolo{
+  font-size: 48px;
+  position: relative;
+  text-align: center;
+}
+
+
+h3.titoletto{
+  font-family: comic sans ms;
+}
+.titoletto{
+  text-align: center;
+}
+
+
+
+.testo{
+  width: 100%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  max-width: 100%;
+  text-align: center;
+}
+.testo li {
+  list-style-position: inside;
+  text-align: left;
+  margin-left: calc(max-width / 3);
+}
+.testo ol, .testo ul {
+  margin-top: -30px;
+  margin-bottom: -40px;
+}
+
+img.testo{
+  left: 40px;
+  right: 40px;
+  width: calc(100% - 380px);
+  height: auto;
+  margin-top: 50px;
+}
