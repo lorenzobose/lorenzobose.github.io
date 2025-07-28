@@ -1,0 +1,133 @@
+main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+}
+
+main video{
+    width: 100%;
+    height: auto;
+}
+
+.separator-container {
+    width: 150%;
+    overflow: hidden;
+    background-color: #fff;
+    white-space: nowrap; 
+    position: relative;
+    left: -50%; 
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+@keyframes scrollBrumBrum {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(9.2%);
+    }
+}
+
+.separator{
+    display: flex;
+    justify-content: space-between;
+    animation: scrollBrumBrum 2s linear infinite;
+}
+
+.separator img{
+    width: 7%;
+    height: auto;
+    flex-shrink: 0;
+    margin-right: 2%;
+}
+
+.separator img:last-child {
+    margin-right: 0;
+}
+
+.phrase-background{
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(135deg, #1e3652 20%, #4892C1, #1e3652 80%);
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 4px solid #1e3652;
+}
+
+.countdown-container{
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.countdown-title{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.countdown-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.singapore-info{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.singapore-info img{
+    width: 70%;
+    border: 0;
+    border-radius: 5%;
+    box-shadow: 0 1px 0px 1px rgb(136, 136, 136);
+}
+
+.singapore-info span{
+    width: 100%;
+    text-align: center;
+}
+
+.countdown{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.countdown div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: flex-end;
+}
+
+.countdown div span{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.countdown div span:first-child{
+    font-size: 100px;
+}
+
+.time-separator{
+    font-size: 100px;
+}

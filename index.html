@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hammer Team</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/home.css">
     <script src="src/main.js" defer></script>
 </head>
 <body>
@@ -17,12 +18,11 @@
         </div>
         <div class="logo">
             <a href="index.html">
-                <img src="img/logo.png" alt="Hammer Team Logo">
+                <img id="logo-img" src="img/logo.png" alt="Hammer Team Logo">
             </a>
         </div>
         <div class="settings-buttons">
             <button id="lang-button" class="head-btn">
-                <img id = "lang" src="" alt="Flag">
             </button>
             <button id="access-button" class="head-btn">
                 <img src="img/accessibility.png" alt="Accessibility">
@@ -30,5 +30,66 @@
         </div>
     </header>
 
+    <main>
+        <video src="video/home_background.mp4" loop="true" autoplay="true"></video>
+        
+        <section class="separator-container">
+            <div class="separator">
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+                <img src="img/brumbrum.svg"></img>
+            </div>
+        </section>
+
+        <section class="phrase-background">
+            <span>"Lewis, It's Hammer Time"</span>
+        </section>
+
+        <section class="countdown-container">
+            <div class="countdown-title">COUNTDOWN TO SINGAPORE!!</div>
+            <div class="countdown-content">
+                <div class="singapore-info">
+                    <img src="img/flag/singapore.png">
+                    <span>Gran Premio di Singapore</span>
+                    <span>3-5 Ottobre 2025</span>
+                </div>
+                <div class="countdown">
+                    <div class="days">
+                        <span id = "dcount">00</span>
+                        <span>DAYS</span>
+                    </div>
+                    <span class="time-separator">:</span>
+                    <div class="hours">
+                        <span id = "hcount">00</span>
+                        <span>HOURS</span>
+                    </div>
+                    <span class="time-separator">:</span>
+                    <div class="minutes">
+                        <span id="mcount">00</span>
+                        <span>MINUTES</span>
+                    </div>
+                    <span class="time-separator">:</span>
+                    <div class="seconds">
+                        <span id="scount">00</span>
+                        <span>SECONDS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
 </body>
 </html>
+
+
+

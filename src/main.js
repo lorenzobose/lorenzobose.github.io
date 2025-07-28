@@ -1,10 +1,9 @@
 let menuOpen = false
-
-const hamBtn = document.getElementsByClassName("ham-btn")[0]
+const hamBtn = /**@type {HTMLElement} */ (document.getElementsByClassName("ham-btn")[0])
+const bar = /** @type {HTMLCollectionOf<HTMLElement>}*/ (document.getElementsByClassName("bar"));
 function menu(){
     if(!menuOpen){
         menuOpen = !menuOpen;
-        let bar = document.getElementsByClassName("bar");
         hamBtn.style.justifyContent = "none"
         bar[0].style.transform = "translateY(8px) rotate(45deg)";
         bar[1].style.transform = "rotate(-45deg)";
@@ -24,12 +23,12 @@ function menu(){
         Home.appendChild(HomeLink)
         Home.classList.add("menuListElement")
 
-        const Journey = document.createElement("li");
-        const JourneyLink = document.createElement("a");
-        JourneyLink.innerHTML = "Journey";
-        JourneyLink.href = "index.html";
-        Journey.appendChild(JourneyLink)
-        Journey.classList.add("menuListElement")
+        const Results = document.createElement("li");
+        const ResultsLink = document.createElement("a");
+        ResultsLink.innerHTML = "Results";
+        ResultsLink.href = "index.html";
+        Results.appendChild(ResultsLink);
+        Results.classList.add("menuListElement")
 
         const Team = document.createElement("li");
         const TeamLink = document.createElement("a");
@@ -53,7 +52,7 @@ function menu(){
         Partners.classList.add("menuListElement")
 
         lista.appendChild(Home)
-        lista.appendChild(Journey)
+        lista.appendChild(Results)
         lista.appendChild(Team)
         lista.appendChild(Car)
         lista.appendChild(Partners)
@@ -65,34 +64,118 @@ function menu(){
         document.body.appendChild(content)
         setTimeout(() => {
             content.style.left = "0"
-        }, 0.5);
+        }, 50);
     }
     else{
         menuOpen = !menuOpen;
-        let bar = document.getElementsByClassName("bar");
         bar[0].style.transform = "";
         bar[1].style.transform = "";
         bar[2].style.opacity = "1"
 
-        content = document.getElementsByClassName("menuContainer")[0]
+        const content = /**@type {HTMLElement} */ (document.getElementsByClassName("menuContainer")[0])
         content.style.left = "-100%"
         setTimeout(()=>{
             document.body.removeChild(content)
         }, 550)
     }
 }
+hamBtn.addEventListener("click", ()=>menu())
 
-function setFlag(){
-    let language = navigator.language.split("-")[0]
-    const langBtn = document.getElementById("lang")
+const langButton = document.getElementById("lang-button");
+const settingButton = /**@type {HTMLElement} */(document.getElementsByClassName("settings-buttons")[0]);
+const logoImg = document.getElementById("logo-img");
+const initialFlag = document.createElement("img");
+
+function setInitialFlag(){
+    let language = navigator.language.split("-")[0];
     switch(language){
+        case "it": {
+            language = "it";
+            initialFlag.src = "img/flag/italy.png"
+            break;
+        }
         default : {
-            language = "en-EN";
-            langBtn.src = "img/flag/italy.png"
+            language = "en";
+            initialFlag.src = "img/flag/england.jpg"
         };
     }
+    initialFlag.classList.add("lang");
+    langButton.appendChild(initialFlag)
+}
+setInitialFlag();
+
+/** @param {String} src */
+function setFlag(src){
+    const selectedFlag = document.createElement("img");
+    selectedFlag.classList.add("lang");
+    selectedFlag.src = src;
+
+    while(langButton.firstChild){
+        langButton.removeChild(langButton.firstChild);
+    }
+    langButton.appendChild(selectedFlag)
+
+    settingButton.classList.remove("open")
+    langButton.classList.remove("open")
+    logoImg.classList.remove("open")
+
+    langButton.style.transition = "background-color 0.3s ease, width 0.5s ease, border-radius 0.1s ease-out"
+    setTimeout(()=>{langButton.style.borderRadius = "60%"}, 500);
+
+    setTimeout(()=>{langButton.addEventListener("click", openLangMenu)}, 350);
 }
 
-setFlag();
+function openLangMenu(){
+    settingButton.classList.add("open")
+    langButton.classList.add("open");
+    logoImg.classList.add("open");
 
-hamBtn.addEventListener("click", ()=>{menu()})
+    while(langButton.firstChild){
+        langButton.removeChild(langButton.firstChild);
+    }
+    langButton.style.transition = "background-color 0.3s ease, width 0.5s ease"
+    langButton.style.borderRadius = "0"
+
+    const italy = document.createElement("img");
+    italy.src = "img/flag/italy.png";
+    italy.classList.add("lang");
+    italy.addEventListener("click", ()=>{setFlag(italy.src)})
+
+    const england = document.createElement("img");
+    england.src = "img/flag/england.jpg";
+    england.classList.add("lang");
+    england.addEventListener("click", ()=>setFlag(england.src))
+
+    const china = document.createElement("img");
+    china.src = "img/flag/china.jpg";
+    china.classList.add("lang");
+    china.addEventListener("click", ()=>setFlag(china.src))
+
+    langButton.appendChild(italy);
+    langButton.appendChild(england);
+    langButton.appendChild(china);
+
+    langButton.removeEventListener("click", openLangMenu);
+
+}
+
+langButton.addEventListener("click", openLangMenu);
+
+
+
+setInterval(()=>{
+    const singaporeDate = new Date("3 October 2025").getTime();
+    const rnDate = new Date().getTime();
+
+    let offset = singaporeDate - rnDate;
+    let days = Math.floor(offset / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((offset % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((offset % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((offset % (1000 * 60)) / 1000);
+
+    document.getElementById("dcount").innerHTML = String(days);
+    document.getElementById("hcount").innerHTML = String(hours);
+    document.getElementById("mcount").innerHTML = String(minutes);
+    document.getElementById("scount").innerHTML = String(seconds);
+    
+}, 1000);
