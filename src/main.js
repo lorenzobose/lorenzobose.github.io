@@ -1,6 +1,7 @@
 let menuOpen = false
 const hamBtn = /**@type {HTMLElement} */ (document.getElementsByClassName("ham-btn")[0])
 const bar = /** @type {HTMLCollectionOf<HTMLElement>}*/ (document.getElementsByClassName("bar"));
+
 function menu(){
     if(!menuOpen){
         menuOpen = !menuOpen;
@@ -26,28 +27,28 @@ function menu(){
         const Results = document.createElement("li");
         const ResultsLink = document.createElement("a");
         ResultsLink.innerHTML = "Results";
-        ResultsLink.href = "index.html";
+        ResultsLink.href = "results.html";
         Results.appendChild(ResultsLink);
         Results.classList.add("menuListElement")
 
         const Team = document.createElement("li");
         const TeamLink = document.createElement("a");
         TeamLink.innerHTML = "Team";
-        TeamLink.href = "index.html";
+        TeamLink.href = "team.html";
         Team.appendChild(TeamLink)
         Team.classList.add("menuListElement")
 
         const Car = document.createElement("li");
         const CarLink = document.createElement("a");
         CarLink.innerHTML = "Car";
-        CarLink.href = "index.html";
+        CarLink.href = "car.html";
         Car.appendChild(CarLink)
         Car.classList.add("menuListElement")
 
         const Partners = document.createElement("li");
         const PartnersLink = document.createElement("a");
         PartnersLink.innerHTML = "Partners";
-        PartnersLink.href = "index.html";
+        PartnersLink.href = "partners.html";
         Partners.appendChild(PartnersLink)
         Partners.classList.add("menuListElement")
 
@@ -79,6 +80,7 @@ function menu(){
         }, 550)
     }
 }
+
 hamBtn.addEventListener("click", ()=>menu())
 
 const langButton = document.getElementById("lang-button");
@@ -160,22 +162,3 @@ function openLangMenu(){
 }
 
 langButton.addEventListener("click", openLangMenu);
-
-
-
-setInterval(()=>{
-    const singaporeDate = new Date("3 October 2025").getTime();
-    const rnDate = new Date().getTime();
-
-    let offset = singaporeDate - rnDate;
-    let days = Math.floor(offset / (1000 * 60 * 60 * 24));
-    let hours = Math.floor((offset % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    let minutes = Math.floor((offset % (1000 * 60 * 60)) / (1000 * 60));
-    let seconds = Math.floor((offset % (1000 * 60)) / 1000);
-
-    document.getElementById("dcount").innerHTML = String(days);
-    document.getElementById("hcount").innerHTML = String(hours);
-    document.getElementById("mcount").innerHTML = String(minutes);
-    document.getElementById("scount").innerHTML = String(seconds);
-    
-}, 1000);
