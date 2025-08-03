@@ -1,0 +1,20 @@
+main{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10%;
+}
+
+.main-title{
+    font-size: 40px;
+    text-align: center;
+}
+
+.f1-in-schools-title{
+    color: #4892C1;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.quali img, .semi img, .finals img{
+    width: 400px;
+}
